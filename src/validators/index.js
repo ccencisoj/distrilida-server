@@ -1,0 +1,1 @@
+module.exports.ClientValidator = require("./client.validator");

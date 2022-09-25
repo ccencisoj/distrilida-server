@@ -1,0 +1,26 @@
+### Obtener cliente
+GET http://localhost:4000/client?clientId=82977a8f-de0f-4238-9b82-e30f34662c3b
+
+### Obtener lista de clientes
+GET http://localhost:4000/client/list
+
+### Crear cliente
+POST http://localhost:4000/client
+Content-Type: application/json
+
+{
+  "name": "Cristian",
+  "nDocument": "1006692259"
+}
+
+### Actualizar cliente
+PUT http://localhost:4000/client?clientId=82977a8f-de0f-4238-9b82-e30f34662c3b
+Content-Type: application/json
+
+{
+  "name": "Andres",
+  "nDocument": "1006692259"
+}
+
+### Eliminar cliente
+DELETE http://localhost:4000/client?clientId=82977a8f-de0f-4238-9b82-e30f34662c3b
